@@ -3,35 +3,68 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
+    <title>Your Name - Portfolio</title>
     <link rel="stylesheet" href="style.css">
+    <!-- Optional: Include Google Fonts for better typography -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <h1>Welcome to My Portfolio</h1>
-    </header>
+    <div class="container">
+        <!-- Sidebar: About Me -->
+        <aside class="sidebar">
+            <div class="profile">
+                <img src="assets/your-photo.jpg" alt="Your Photo" class="profile-pic">
+                <h1>Your Name</h1>
+                <p>Brief bio or tagline goes here.</p>
+            </div>
+            <nav class="nav">
+                <ul>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </aside>
 
-    <section id="about">
-        <h2>About Me</h2>
-        <p>I'm a passionate developer specializing in AI, machine learning, and generative models.</p>
-    </section>
+        <!-- Main Content: Projects -->
+        <main class="main-content">
+            <section id="about">
+                <h2>About Me</h2>
+                <p>
+                    I'm a passionate developer specializing in AI, machine learning, and generative models.
+                    Currently a third-year undergraduate at IIT Kharagpur, actively seeking internships in generative AI and data science.
+                </p>
+            </section>
 
-    <section id="projects">
-        <h2>Projects</h2>
-        <div class="project">
-            <h3>Project 1</h3>
-            <p>Description of the project...</p>
-        </div>
-        <div class="project">
-            <h3>Project 2</h3>
-            <p>Description of the project...</p>
-        </div>
-    </section>
+            <section id="projects">
+                <h2>Projects</h2>
+                <div class="project">
+                    <h3>Project 1</h3>
+                    <p>Description of the first project. Explain the technologies used and what you accomplished.</p>
+                    <a href="https://github.com/your-username/project1" target="_blank">View on GitHub</a>
+                </div>
+                <div class="project">
+                    <h3>Project 2</h3>
+                    <p>Description of the second project. Highlight any unique features or challenges you overcame.</p>
+                    <a href="https://github.com/your-username/project2" target="_blank">View on GitHub</a>
+                </div>
+                <!-- Add more projects as needed -->
+            </section>
+
+            <section id="contact">
+                <h2>Contact</h2>
+                <p>Email: <a href="mailto:your-email@example.com">your-email@example.com</a></p>
+                <!-- Optional: Add social media links -->
+                <p>
+                    <a href="https://linkedin.com/in/your-profile" target="_blank">LinkedIn</a> |
+                    <a href="https://github.com/your-username" target="_blank">GitHub</a>
+                </p>
+            </section>
+        </main>
+    </div>
 
     <footer>
-        <p>Contact: your-email@example.com</p>
+        <p>&copy; 2024 Your Name. All rights reserved.</p>
     </footer>
-
-    <script src="script.js"></script>
 </body>
 </html>
